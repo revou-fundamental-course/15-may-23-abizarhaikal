@@ -1,0 +1,47 @@
+body {
+  background-color: #d3d3d326;
+}
+
+header {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.subtitle {
+  font-size: small;
+  color: gray;
+}
+
+.card {
+  background-color: white;
+}
+
+.figure {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+.result-luas {
+  visibility: hidden;
+}
+
+.square {
+  border: 1px solid tomato;
+  height: 20px;
+  width: 20px;
+}
